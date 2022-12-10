@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  VerifyBlocSDK is a verification service. 
+  VerifyBlocSDK is a verification service.
                        DESC
 
   s.homepage         = 'https://www.verifybloc.com'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'VerifyBlocSDK/Classes/**/*'
+#  s.source_files = 'VerifyBlocSDK/Classes/**/*'
   
   s.vendored_frameworks = ['VerifyBlocSDK/Frameworks/VerifyBloc.framework']
   s.resource = 'VerifyBlocSDK/Bundles/VerifyBloc.bundle'
