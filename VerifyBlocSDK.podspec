@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  VerifyBlocSDK is a verification service.
+  VerifyBlocSDK is a verification service. 
                        DESC
 
   s.homepage         = 'https://www.verifybloc.com'
