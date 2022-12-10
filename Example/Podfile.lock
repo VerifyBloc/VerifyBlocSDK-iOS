@@ -1,0 +1,23 @@
+PODS:
+  - SnapKit (5.6.0)
+  - VerifyBlocSDK (0.1.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - VerifyBlocSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  VerifyBlocSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  VerifyBlocSDK: c02728408c29a9775ed0beecc8c1c261369474b8
+
+PODFILE CHECKSUM: 4a1e4be828aa3379ab91634e38f7921873f85cdb
+
+COCOAPODS: 1.11.3

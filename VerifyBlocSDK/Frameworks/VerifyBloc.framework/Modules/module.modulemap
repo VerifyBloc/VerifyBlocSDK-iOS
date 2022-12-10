@@ -1,0 +1,11 @@
+framework module VerifyBloc {
+  umbrella header "VerifyBloc.h"
+
+  export *
+  module * { export * }
+}
+
+module VerifyBloc.Swift {
+    header "VerifyBloc-Swift.h"
+    requires objc
+}

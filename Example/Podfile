@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'VerifyBlocSDK_Example' do
+  pod 'VerifyBlocSDK', :path => '../'
+  pod 'SnapKit'
+  
+end
