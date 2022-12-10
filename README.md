@@ -22,7 +22,7 @@ pod 'VerifyBlocSDK'
 
 ## Author
 
-修齐, senyuhao_developer@163.com
+haozheng@presslogic.com
 
 ## License
 
