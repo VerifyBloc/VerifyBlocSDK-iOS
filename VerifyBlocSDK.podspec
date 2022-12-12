@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VerifyBlocSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'VerifyBlocSDK is a verification service.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.verifybloc.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'haozheng' => 'haozheng@presslogic.com' }
-  s.source           = { :git => 'https://github.com/tapnow/VerifyBlocSDK-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/VerifyBloc/VerifyBlocSDK-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
