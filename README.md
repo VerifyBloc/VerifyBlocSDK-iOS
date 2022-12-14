@@ -21,17 +21,14 @@
 
 | Version | Release date | Release notes |
 | --- | --- | --- |
-|  |  |  |
+|  0.2.0  | 2022/12/14  |  |
 
 # How to Onboard
-
-[(for Clients)  How to onboard_VerifyBloc](https://www.notion.so/for-Clients-How-to-onboard_VerifyBloc-83564abf30f94054af17fbab194e0ecf) 
-
 1. Contact support@verifybloc.com for VerifyBloc service details and retrieve your `partnerId`, `applicationId` and `privateKey`
 2. Provide us with the following:
     1. Callback path
-    2. KYC Flow ([VerifyBloc SDK - Flow Customization](https://www.notion.so/VerifyBloc-SDK-Flow-Customization-ae049de274a9492f9f877473252871ae) )
-    3. Country list (Default list: [VerifyBloc - Issuing Authorities of Documents List](https://www.notion.so/VerifyBloc-Issuing-Authorities-of-Documents-List-08df0e193916413ab85d74df5e4b4666) )
+    2. KYC Flow
+    3. Country list
     4. Contact email
     5. App logo or profile photo
 3. With the first 2 steps finished, we’ll provide you with VerifyBloc SDK(s) and Demo App(s)
@@ -44,12 +41,12 @@
         ![截屏2022-12-08 下午4.35.14.png](images/cut_1.png)
         
 
-- Targets → Frameworks，Libraries and Enbedded Content 中可以看到 VerifyBloc.framework，设置 Do Not Embed
+    - Targets → Frameworks，Libraries and Enbedded Content 中可以看到 VerifyBloc.framework，设置 Do Not Embed
     
-    ![截屏2022-12-08 下午4.38.44.png](images/cut_2.png)
+         ![截屏2022-12-08 下午4.38.44.png](images/cut_2.png)
     
 
-1. 通过 CocoaPods 进行集成
+2. 通过 CocoaPods 进行集成
     
     ```swift
     pod 'VerifyBlocSDK', '0.2.0'
@@ -68,7 +65,7 @@
     ```
     
 
-1. 仅支持真机
+2. 仅支持真机
     
     鉴于 SDK 中需摄像头权限，故 SDK 不支持模拟器调试
     
