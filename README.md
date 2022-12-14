@@ -7,23 +7,18 @@
 
 # VerifyBloc - iOS SDK Guide
 
-<aside>
-💡 **Note: The SDK is only responsible for capturing and uploading photos and videos. The KYC check will be provided by VerifyBloc KYC team.**
-
-</aside>
-
-# Configuration Overview
+## Configuration Overview
 
 - Requires iOS 12.0 or later
 - Requires Swift 4.0 or later
 
-# Release Notes
+## Release Notes
 
 | Version | Release date | Release notes |
 | --- | --- | --- |
 |  0.2.0  | 2022/12/14  |  |
 
-# How to Onboard
+## How to Onboard
 1. Contact support@verifybloc.com for VerifyBloc service details and retrieve your `partnerId`, `applicationId` and `privateKey`
 2. Provide us with the following:
     1. Callback path
@@ -33,7 +28,7 @@
     5. App logo or profile photo
 3. With the first 2 steps finished, we’ll provide you with VerifyBloc SDK(s) and Demo App(s)
 
-# 集成方法
+## 集成方法
 
 1. 下载 VerifyBloc 相关资源包，添加项目中集成
     - 将下载 VerifyBloc.framework、VerifyBloc.bundle 添加到项目中，截图如下：
@@ -70,7 +65,7 @@
     鉴于 SDK 中需摄像头权限，故 SDK 不支持模拟器调试
     
 
-# 方法介绍
+## 方法介绍
 
 可供调用方法预览：
 
@@ -163,16 +158,16 @@
 
 2. 枚举类型
 
-```swift
-public enum ThemeUI : Int {
+    ```swift
+    public enum ThemeUI : Int {
 
-    case dark  
+        case dark  
 
-    case light
-}
-```
+        case light
+    }
+    ```
 
-| 枚举值 | 描述 |
-| --- | --- |
-| dark | Dark mode |
-| light | Light mode (Default) |
+    | 枚举值 | 描述 |
+    | --- | --- |
+    | dark | Dark mode |
+    | light | Light mode (Default) |
